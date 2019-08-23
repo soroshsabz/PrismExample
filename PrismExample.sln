@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A04D85CE-08C6-48E2-B925-FEB2848B29C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpfExample", "PrismWpfExample\PrismWpfExample.csproj", "{8EA43EC5-9DC5-446A-84E4-1297E05703EC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{A04D85CE-08C6-48E2-B925-FEB2848B29C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A04D85CE-08C6-48E2-B925-FEB2848B29C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A04D85CE-08C6-48E2-B925-FEB2848B29C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8EA43EC5-9DC5-446A-84E4-1297E05703EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EA43EC5-9DC5-446A-84E4-1297E05703EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EA43EC5-9DC5-446A-84E4-1297E05703EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EA43EC5-9DC5-446A-84E4-1297E05703EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
