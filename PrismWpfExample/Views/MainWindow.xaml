@@ -5,6 +5,9 @@
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525">
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+		<Label Content="{Binding DateString}" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="175"/>
+		<Button Command="{Binding ShowDateStringCommand}" Content="Button" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Center" Width="175"/>
+		<!-- <ContentControl prism:RegionManager.RegionName="ContentRegion" /> -->
+
     </Grid>
 </Window>
