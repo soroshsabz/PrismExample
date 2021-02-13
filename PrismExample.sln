@@ -1,11 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A04D85CE-08C6-48E2-B925-FEB2848B29C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWpfExample", "PrismWpfExample\PrismWpfExample.csproj", "{4E0951BE-3805-4156-9366-1AD5DBCCE64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{BFCC7E05-E284-4861-96B7-BB35645408AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismExample.ClassLibrary1", "Source\PrismExample.ClassLibrary1\PrismExample.ClassLibrary1.csproj", "{C0F2451A-1DB5-4A2C-8F7B-CE046E348DE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5EB2E65F-C300-4581-9914-21ADD62B8E44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{57FC82BB-F44E-48E5-A7FB-50EAFEE3108B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismExample.ClassLibrary1.Tests", "Tests\UnitTests\PrismExample.ClassLibrary1.Tests\PrismExample.ClassLibrary1.Tests.csproj", "{C8FE535B-1E8E-41D4-9325-9659F1FB1E19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8886AF8A-38C0-4016-870B-30F04B1B5863}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		build.ps1 = build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{0842F985-F13B-43D8-A9FB-29915F0CEDFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +39,22 @@ Global
 		{4E0951BE-3805-4156-9366-1AD5DBCCE64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E0951BE-3805-4156-9366-1AD5DBCCE64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E0951BE-3805-4156-9366-1AD5DBCCE64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F2451A-1DB5-4A2C-8F7B-CE046E348DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F2451A-1DB5-4A2C-8F7B-CE046E348DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F2451A-1DB5-4A2C-8F7B-CE046E348DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F2451A-1DB5-4A2C-8F7B-CE046E348DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FE535B-1E8E-41D4-9325-9659F1FB1E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FE535B-1E8E-41D4-9325-9659F1FB1E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FE535B-1E8E-41D4-9325-9659F1FB1E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FE535B-1E8E-41D4-9325-9659F1FB1E19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0F2451A-1DB5-4A2C-8F7B-CE046E348DE4} = {BFCC7E05-E284-4861-96B7-BB35645408AA}
+		{57FC82BB-F44E-48E5-A7FB-50EAFEE3108B} = {5EB2E65F-C300-4581-9914-21ADD62B8E44}
+		{C8FE535B-1E8E-41D4-9325-9659F1FB1E19} = {57FC82BB-F44E-48E5-A7FB-50EAFEE3108B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {334F70A8-F822-4622-83B4-097690C67774}
