@@ -62,6 +62,7 @@ Task("Test")
 	};
 
 	NUnit3(@"Tests\UnitTests\PrismExample.ClassLibrary1.Tests\bin\Debug\netcoreapp3.1\PrismExample.ClassLibrary1.Tests.dll", settings);
+	NUnit3(@"Tests\UnitTests\PrismExample.ClassLibrary2.Tests\bin\Debug\netcoreapp2.1\PrismExample.ClassLibrary2.Tests.dll", settings);
 });
 
 Task("Publish")
